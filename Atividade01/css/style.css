@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #1f64e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagem {
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  border: 3px solid black;
+}

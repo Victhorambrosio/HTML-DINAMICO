@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Atividade 01</title>
   </head>
-  <body>
+  <body style="text-align: center">
     <!-- Exercício 1 - Toque a imagem aleatoriamente quando clicar sobre ela -->
     <h1>Exercício 1 - Trocando as imagens</h1>
-    <img id="imagem" src="img/box.png" onclick="trocarImagem();" />
+    <img id="imagem" src="imagem/emoji-joinha.jpeg" onclick="trocarImagem();" />
     <br />
-    <hr />
+    
 
     <!-- Exercício 2 - Faça a calculadora funcionar -->
     <h1>Exercício 2 - Calculadora</h1>
@@ -42,10 +42,10 @@
         />
       </div>
       <div id="botoes">
-        <button id="btnSoma" type="button">Somar</button>
-        <button id="btnSubracao" type="button">Subtrair</button>
-        <button id="btnMultiplicacao" type="button">Multiplicar</button>
-        <button id="btnDivisao" type="button">Dividir</button>
+        <button id="btnSoma" type="button" onclick="calcular('+')">Somar</button>
+        <button id="btnSubracao" type="button" onclick="calcular('-')">Subtrair</button>
+        <button id="btnMultiplicacao" type="button" onclick="calcular('*')">Multiplicar</button>
+        <button id="btnDivisao" type="button" onclick="calcular('/')">Dividir</button>
       </div>
     </form>
 
